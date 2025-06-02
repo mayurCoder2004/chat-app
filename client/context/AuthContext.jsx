@@ -15,7 +15,7 @@ export const AuthProvider = ({ children }) => {
     const [onlineUsers, setOnlineUsers] = useState([]);
     const [socket, setSocket] = useState(null);
 
-    // Check f user is authenticated and if so, set the user data and connect the socket
+    // Check if user is authenticated and if so, set the user data and connect the socket
 
     const checkAuth = async () => {
         try {
